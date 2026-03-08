@@ -9,7 +9,7 @@ export default function Brands(){
     ]
 
     return(
-        <section className="min-h-150 bg-[#1E252B] flex justify-center max-md:px-4 max-md:flex max-md:items-center">
+        <section className="min-h-150 bg-[#1E252B] flex justify-center max-md:px-4 max-md:flex max-md:items-center max-md:min-h-[400px]">
             <div className="flex flex-col bg-[#2C353D33] backdrop-blur-[50px]  max-h-[253px] max-w-[1224px] rounded-[25px] px-[80px] py-[55px] gap-[55px] max-md:backdrop-blur-none max-md:w-full max-md:py-5 max-md:gap-10">
                 <p className="font-['Poppins'] font-medium text-2xl leading-[100%] text-[#FFFFFFCC] text-center max-md:text-[22px]">Trusted more than 150+ brand</p>
 

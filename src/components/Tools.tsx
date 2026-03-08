@@ -66,7 +66,7 @@ const icons = {
 
 export default function Tools() {
   return (
-    <section className="bg-[#1E252B] min-h-[1250px] flex flex-col items-center py-20 px-4">
+    <section id="categories" className="bg-[#1E252B] min-h-[1250px] flex flex-col items-center py-20 px-4">
       <div className="flex flex-col gap-[25px] mb-16 text-center">
         <h2 className="font-['Poppins'] font-medium text-[48px] leading-[130%] text-[#FFFFFFE5]">{data.title}</h2>
         <h3 className="font-['Poppins'] font-medium text-[18px] leading-[30px] text-[#FFFFFF8C] max-w-[427px]">{data.subtitle}</h3>

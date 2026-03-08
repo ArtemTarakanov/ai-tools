@@ -17,7 +17,7 @@ const icons = {
 
 export default function Newcomer() {
   return (
-    <section className="bg-[#1E252B] py-20 px-4">
+    <section id="collection" className="bg-[#1E252B] py-20 px-4">
       <div className="max-w-[1224px] mx-auto flex gap-8 items-center justify-center max-lg:flex-col">
         
         <div className="flex flex-col justify-center max-w-[400px] max-md:flex max-md:items-center">

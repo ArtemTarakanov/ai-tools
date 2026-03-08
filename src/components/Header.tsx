@@ -17,10 +17,10 @@ export default function Header(){
             </div>
 
             <ul className="flex flex-row gap-4 items-center max-md:hidden">
-                <a href="#" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C]">Home</a>
-                <a href="#" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C]">Categories</a>
-                <a href="#" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C]">My collection</a>
-                <a href="#" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C]">Blog</a>
+                <a href="#home" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors">Home</a>
+                <a href="#categories" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors">Categories</a>
+                <a href="#collection" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors">My collection</a>
+                <a href="#blog" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors">Blog</a>
             </ul>
             
             <div className="flex flex-row gap-10 items-center max-md:hidden">
@@ -42,10 +42,10 @@ export default function Header(){
             {isOpen && (
                 <div className="md:hidden absolute flex flex-col top-18.75 left-0 w-full bg-[#1E252B] shadow-lg py-6 px-4 animate-slideDown z-50" style={{borderBottom: '1px solid rgba(211, 211, 211, 0.5)'}}>
                     <ul className="flex flex-col gap-6 items-center mb-6" style={{borderBottom: '1px solid #D3D3D3', paddingBottom: '24px'}}>
-                        <a href="#" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors duration-300">Home</a>
-                        <a href="#" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors duration-300">Categories</a>
-                        <a href="#" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors duration-300">My collection</a>
-                        <a href="#" className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors duration-300">Blog</a>
+                        <a href="#home" onClick={() => setIsOpen(false)} className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors duration-300">Home</a>
+                        <a href="#categories" onClick={() => setIsOpen(false)} className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors duration-300">Categories</a>
+                        <a href="#collection" onClick={() => setIsOpen(false)} className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors duration-300">My collection</a>
+                        <a href="#blog" onClick={() => setIsOpen(false)} className="font-['Poppins'] font-medium text-base text-[#FFFFFF8C] hover:text-[#FF6E30] transition-colors duration-300">Blog</a>
                     </ul>
 
                     <div className="flex flex-col gap-4 items-center pt-2">

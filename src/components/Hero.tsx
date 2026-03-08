@@ -1,6 +1,6 @@
 export default function Hero(){
     return(
-        <section className="bg-[#1E252B] min-h-[650px] flex items-center justify-around max-md:flex-col-reverse max-md:px-4 max-md:py-5 max-md:gap-4.5">
+        <section id="home" className="bg-[#1E252B] min-h-[650px] flex items-center justify-around max-md:flex-col-reverse max-md:px-4 max-md:py-5 max-md:gap-4.5">
             <div className="flex flex-col gap-15 max-md:gap-4">
 
                 <div className="flex flex-col gap-7.5 max-md:gap-4" >
